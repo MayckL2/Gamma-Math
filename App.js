@@ -19,7 +19,7 @@ function App() {
   }
 
   return (
-    <SafeAreaView>
+    <SafeAreaView >
       <StatusBar hidden={true}/>
 
       <View style={styles.header}>
@@ -40,14 +40,17 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-around',
-    // paddingVertical: 50,
+    height: '10vh'
   },
+
   tela: {
     display: 'flex',
-    justifyContent: 'center',
     alignItems: 'center',
-    height: '100%'
+    height: 'auto',
+    backgroundColor: '#0D1422',
+    height: '90vh'
   },
+
   headerBtn:{
     backgroundColor: 'gray',
     flexGrow: 1,
