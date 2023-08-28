@@ -1,16 +1,16 @@
 import { useState } from 'react';
 import { StyleSheet, View, Text, SafeAreaView, StatusBar } from 'react-native';
 
-import Calculadora from './components/calculadora';
+import Teclado from './components/teclado';
 import Medida from './components/Medida';
 import Temperatura from './components/Temperatura';
 
 function App() {
-  const [tela, setTela] = useState('Calculadora');
+  const [tela, setTela] = useState('Teclado');
 
   function telaAberta(e) {
-    if (tela == 'Calculadora') {
-      return <Calculadora />;
+    if (tela == 'Teclado') {
+      return <Teclado />;
     } else if (tela == 'Medida') {
       return <Medida />;
     } else if (tela == 'Temperatura') {
@@ -19,11 +19,11 @@ function App() {
   }
 
   return (
-    <SafeAreaView>
+    <SafeAreaView style={styles.fundo}>
       <StatusBar hidden={true}/>
 
       <View style={styles.header}>
-        <Text style={styles.headerBtn} onPress={() => setTela('Calculadora')}>Calculadora</Text>
+        <Text style={styles.headerBtn} onPress={() => setTela('Teclado')}>Teclado</Text>
         <Text style={styles.headerBtn} onPress={() => setTela('Medida')}>Medida</Text>
         <Text style={styles.headerBtn} onPress={() => setTela('Temperatura')}>Temperatura</Text>
       </View>
