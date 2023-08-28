@@ -1,10 +1,10 @@
 ###   1.1 - O QUE É O PROJETO
 
-    # O projeto em questão é a criação de um aplicativo de calculadora desenvolvido especificamente para dispositivos móveis. A proposta central do projeto é fornecer aos usuários uma ferramenta prática e versátil para a realização de cálculos em seus smartphones.
+     O projeto em questão é a criação de um aplicativo de calculadora desenvolvido especificamente para dispositivos móveis. A proposta central do projeto é fornecer aos usuários uma ferramenta prática e versátil para a realização de cálculos em seus smartphones.
 
 ###   1.2 - OBJETIVO 
 
-    # O aplicativo de calculadora terá como foco principal oferecer funcionalidades essenciais de cálculo, como operações de adição, subtração, multiplicação e divisão. Além disso, estão previstas funcionalidades mais avançadas, como cálculos com porcentagens, operações de raiz quadrada e a capacidade de lidar com números negativos além das abas de conversão de metros e temperatura. 
+     O aplicativo de calculadora terá como foco principal oferecer funcionalidades essenciais de cálculo, como operações de adição, subtração, multiplicação e divisão. Além disso, estão previstas funcionalidades mais avançadas, como cálculos com porcentagens, operações de raiz quadrada e a capacidade de lidar com números negativos além das abas de conversão de metros e temperatura. 
 
 
 ###   1.3 - REQUISITOS FUNCIONAIS  
