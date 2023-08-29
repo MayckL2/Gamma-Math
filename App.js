@@ -62,15 +62,16 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-around',
-    height: '10vh',
+    height: 50,
     backgroundColor: '#1C2E48',
+    borderEndEndRadius: 20
   },
 
   tela: {
     display: 'flex',
     alignItems: 'center',
     backgroundColor: '#0D1422',
-    width: '100%',
+    width: 360,
     height: '100%'
   },
 
@@ -81,6 +82,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     textAlignVertical: 'center',
     color: 'white',
+    paddingBottom: 30
   },
   fundo:{
     height: '100px'
@@ -92,5 +94,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     textAlignVertical: 'center',
     color: 'white',
+    paddingBottom: 30
   }
 });
