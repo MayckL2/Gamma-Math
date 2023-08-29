@@ -1,5 +1,6 @@
 function calcular(equacao) {
     const operacao = equacao;
+    const sinaisOperacionais = ['+', '-', '*', '/', '.', '%'];
 
     const posicaoDaBarra = operacao.indexOf('/');
 
@@ -9,15 +10,22 @@ function calcular(equacao) {
             return false;
         }
     } else {
+        const caracterFinal = operacao[operacao.length - 1];
+        if (sinaisOperacionais.includes(caracterFinal)){
+            alert('Espressão inválida');
+            return false;
+        } else {
 
-        const resultado = eval(operacao);
+            const resultado = eval(operacao);
+    
+            const retorno = resultado.toString();
+    
+            return retorno;
+        }
 
-        const retorno = resultado.toString();
-
-        return retorno;
     }
 
-    }
+}
     
     // Retorna true se o número de parênteses abertos e fechados for igual
 
