@@ -12,35 +12,22 @@ export default function Botao({ valor, dados, cor, img }) {
 
 // diferencia qual a cor do botão
   function escolhaBotao(e) {
+    let corBotao;
     if (e == 'verde') {
-      return (
-        <TouchableOpacity style={styles.botaoVerde} onPress={dados}>
-          <Text>{valor}</Text> 
-          <Image source={img} />
-        </TouchableOpacity>
-      );
+      corBotao = styles.botaoVerde
     }else if(e == 'azul'){
-      return (
-        <TouchableOpacity style={styles.botaoAzul} onPress={dados}>
-          <Text>{valor}</Text> 
-          <Image source={img} />
-        </TouchableOpacity>
-      );
+      corBotao = styles.botaoAzul
     }else if(e == 'cinza'){
-      return (
-        <TouchableOpacity style={styles.botaoCinza} onPress={dados}>
-          <Text>{valor}</Text> 
-          <Image source={img} />
-        </TouchableOpacity>
-      );
+      corBotao = styles.botaoCinza
     }else{
-      return (
-        <TouchableOpacity style={styles.botao} onPress={dados}>
-          <Text>{valor}</Text> 
-          <Image source={img} />
-        </TouchableOpacity>
-      );
+      corBotao = styles.botao
     }
+    return (
+      <TouchableOpacity style={corBotao} onPress={dados}>
+        <Text>{valor}</Text> 
+        <Image source={img} />
+      </TouchableOpacity>
+    );
   }
 
   return (
