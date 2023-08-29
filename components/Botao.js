@@ -118,7 +118,8 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 18
+    marginBottom: 18,
+    paddingBottom: 25
   },
   botaoGrandeAzul: {
     backgroundColor: '#7A9FE5',

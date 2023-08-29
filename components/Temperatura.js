@@ -56,7 +56,6 @@ export default function Temperatura(){
             <Image source={require('../assets/img/solnublado.png')} style={styles.img} />
           </View>
         </View>
-
       </View>
 
       <View style={styles.instrucoes}>

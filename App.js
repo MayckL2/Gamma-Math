@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     height: 50,
     backgroundColor: '#1C2E48',
-    borderEndEndRadius: 20
+    borderRadius: 20
   },
 
   tela: {
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
   headerBtn:{
     backgroundColor: '#1C2E48',
     flexGrow: 1,
-    height: 80,
+    height: 50,
     textAlign: 'center',
     textAlignVertical: 'center',
     color: 'white',
@@ -90,10 +90,11 @@ const styles = StyleSheet.create({
   selected:{
     backgroundColor: '#219495',
     flexGrow: 1,
-    height: 80,
+    height: 50,
     textAlign: 'center',
     textAlignVertical: 'center',
     color: 'white',
-    paddingBottom: 30
+    paddingBottom: 30,
+    borderRadius: 10
   }
 });
