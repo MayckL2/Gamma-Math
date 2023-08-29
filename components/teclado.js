@@ -48,7 +48,7 @@ export default function Teclado() {
         <Botao valor="-" dados={() => setValor(valor + '-')} cor='cinza'/>
         <Botao valor="0" dados={() => setValor(valor + 0)}/>
         <Botao valor="." dados={() => setValor(valor + '.')} cor='cinza'/>
-        <Botao dados={() => setValor(valor + 'C')} cor='verde' img={backSpace}/>
+        <Botao dados={() => setValor(valor.slice(0, -1))} cor='verde' img={backSpace}/>
         <Botao valor="=" dados={chamarCalcular} cor='azul'/>
       </View>
     </View>

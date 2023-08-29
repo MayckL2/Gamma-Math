@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     alignItems: 'center',
     backgroundColor: '#0D1422',
-    width: 360,
+    width: '100%',
     height: '100%'
   },
 
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     textAlignVertical: 'center',
     color: 'white',
-    paddingBottom: 30
+    paddingBottom: 30,
     borderRadius: 10
   }
 });
