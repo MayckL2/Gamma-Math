@@ -3,16 +3,18 @@ import { View, Text, StyleSheet } from 'react-native';
 import Botao from './Botao';
 import backSpace from '../backspace.png';
 import { calcular, backspace } from '../backend/calculadora';
-
+import BotaoGrande from './BotaoGrande'
 
 export default function Teclado() {
   const [valor, setValor] = useState('');
   const [resultado, setResultado] = useState('');
 
   const chamarBackspace = () => {
-    const retorno = backspace(valor);
-    setValor(retorno);
+    const resposta = backspace(valor);
+
+    setValor(resposta);
   }
+
   const chamarCalcular = () => {
     const retornoCalculo = calcular(valor);
 
@@ -35,8 +37,7 @@ export default function Teclado() {
       </View>
 
       <View style={styles.teclado}>
-        <Botao valor="C" dados={limparTelas} cor='cinza'/>
-        <Botao valor="^" dados={() => setValor(valor + ')')} cor='cinza'/>
+        <BotaoGrande valor='C' dados={limparTelas} />
         <Botao valor="%" dados={() => setValor(valor + '%')} cor='cinza'/>
         <Botao valor="÷" dados={() => setValor(valor + '/')} cor='cinza'/>
         <Botao valor="9" dados={() => setValor(valor + 9)}/>

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, Image } from 'react-native';
 import Botao from './Botao';
 import backSpace from '../backspace.png';
 
@@ -40,6 +40,21 @@ export default function Temperatura(){
         <View style={styles.celsius}>
           <Text style={styles.icon}>Cº</Text>
           <Text style={styles.textoCelsius}>{ celsius }</Text>
+          <Image source={require('../assets/img/termometro.png')} style={styles.img} />
+        </View>
+
+        <View style={styles.container}>
+          <View style={styles.resultados}>
+            <Text style={styles.icon}>Fahrenheit</Text>
+            <Text style={ styles.temperatura }>{ fahrenheit }</Text>
+            <Image source={require('../assets/img/sol.png')} style={styles.img} />
+          </View>
+
+          <View style={styles.resultados}>
+            <Text style={styles.icon}>Kelvin</Text>
+            <Text style={ styles.temperatura }>{ kelvin }</Text>
+            <Image source={require('../assets/img/solnublado.png')} style={styles.img} />
+          </View>
         </View>
 
       </View>
@@ -71,7 +86,9 @@ export default function Temperatura(){
 
 const styles = StyleSheet.create({
   temperatura: {
-    color: '#fff'
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize: 30
   },
   teclado: {
     flexDirection:'row',
@@ -82,7 +99,8 @@ const styles = StyleSheet.create({
   },
   tela: {
     paddingLeft: 15,
-    paddingRight: 15
+    paddingRight: 15,
+    marginTop: 10
   },
   instrucoes: {
     width: '100vw',
@@ -97,7 +115,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   visor: {
-    height: 350,
+    height: 300,
     width: '100vw',
     backgroundColor: '#1C2E48',
     borderRadius: 10,
@@ -110,7 +128,10 @@ const styles = StyleSheet.create({
     width: '100vw',
     paddingVertical: 12,
     borderRadius: 10,
-    paddingHorizontal: 20
+    paddingHorizontal: 20,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 12
   },
   icon: {
     color: '#2BD7D9',
@@ -118,5 +139,20 @@ const styles = StyleSheet.create({
   },
   textoCelsius: {
     color: "#FFF",
+  },
+  resultados: {
+    backgroundColor:"#364F6B",
+    height: '75%',
+    width: '48%',
+    borderRadius: 10,
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    textAlign: 'center',
+    padding: 12
+  },
+  container: {
+    height: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-between'
   }
 })

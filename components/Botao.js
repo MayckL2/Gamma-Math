@@ -80,6 +80,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
+    paddingBottom: 22
   },
   botaoCinza: {
     backgroundColor: '#7A9FE5',
@@ -100,37 +101,37 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   botaoGrande: {
-    width: 115,
-    height: 115,
+    width: 110,
+    height: 90,
     backgroundColor: '#1C2E48',
     color: 'white',
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 12
+    marginBottom: 18
   },
   botaoGrandeVerde: {
     backgroundColor: '#219495',
-    width: 115,
-    height: 115,
+    width: 110,
+    height: 70,
     color: 'white',
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 12
+    marginBottom: 18
   },
   botaoGrandeAzul: {
     backgroundColor: '#7A9FE5',
-    width: 115,
-    height: 115,
+    width: 110,
+    height: 70,
     color: 'white',
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 12
+    marginBottom: 18
   },
   texto: {
     color: '#fff',
-    fontSize: 24,
+    fontSize: 24
   }
 });
