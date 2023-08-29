@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { StyleSheet, View, Text, SafeAreaView, StatusBar } from 'react-native';
 
 import Teclado from './components/teclado';
@@ -11,7 +11,26 @@ function App() {
   const [btnCor1, setBtnCor1] = useState(styles.headerBtn)
   const [btnCor2, setBtnCor2] = useState(styles.headerBtn)
 
+  // MUDA COR DO BOTAO AO TROCAR DE TELA
+  useEffect(()=>{
+    if(tela == 'Teclado'){
+      setBtnCor(styles.selected)
+      setBtnCor1(styles.headerBtn)
+      setBtnCor2(styles.headerBtn)
+    }else if(tela == 'Medida'){
+      setBtnCor(styles.headerBtn)
+      setBtnCor1(styles.selected)
+      setBtnCor2(styles.headerBtn)
+    }else if(tela == 'Temperatura'){
+      setBtnCor(styles.headerBtn)
+      setBtnCor1(styles.headerBtn)
+      setBtnCor2(styles.selected)
+    }
+  }, [tela])
+  
+  // MUDA TELA A SER RENDERIZADA
   function telaAberta(e) {
+    
     if (tela == 'Teclado') {
       return <Teclado />;
     } else if (tela == 'Medida') {
