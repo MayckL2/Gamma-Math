@@ -60,9 +60,10 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     flexWrap: 'wrap',
-    width: '100%',
+    width: 350,
     gap: 10,
-    fontSize: 35
+    fontSize: 35,
+    marginRight: -50
   },
   visor: {
     color: 'gray',
