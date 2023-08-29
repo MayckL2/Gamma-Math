@@ -17,8 +17,7 @@ export default function Teclado() {
 
 
   return (
-    <View>
-      <Text>SCREEN Calculadora</Text>
+    <View style={styles.telaCalc}>
 
       <View style={styles.telaVisor}>
         <Text style={styles.visor}>{valor}</Text>
@@ -72,5 +71,11 @@ const styles = StyleSheet.create({
     fontSize: 40
   },
   telaVisor:{
+  },
+  telaCalc:{
+    justifyContent: 'center',
+    paddingRight: 20,
+    height: '90%',
+    gap: 40
   }
 });
