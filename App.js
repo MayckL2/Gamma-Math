@@ -64,15 +64,15 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     height: 50,
     backgroundColor: '#1C2E48',
-    borderRadius: 10
+    borderRadius: 20
   },
 
   tela: {
     display: 'flex',
     alignItems: 'center',
     backgroundColor: '#0D1422',
-    width: '100%',
-    height: '100%',
+    width: 360,
+    height: '100%'
   },
 
   headerBtn:{
@@ -82,6 +82,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     textAlignVertical: 'center',
     color: 'white',
+    paddingBottom: 30
   },
   fundo:{
     height: '100px'
@@ -93,6 +94,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     textAlignVertical: 'center',
     color: 'white',
+    paddingBottom: 30
     borderRadius: 10
   }
 });
