@@ -99,7 +99,8 @@ const styles = StyleSheet.create({
   },
   tela: {
     paddingLeft: 15,
-    paddingRight: 15
+    paddingRight: 15,
+    marginTop: 10
   },
   instrucoes: {
     width: '100vw',
@@ -114,7 +115,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   visor: {
-    height: 280,
+    height: 300,
     width: '100vw',
     backgroundColor: '#1C2E48',
     borderRadius: 10,
