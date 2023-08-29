@@ -62,8 +62,9 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-around',
-    height: '10vh',
+    height: 50,
     backgroundColor: '#1C2E48',
+    borderRadius: 10
   },
 
   tela: {
@@ -71,13 +72,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#0D1422',
     width: '100%',
-    height: '100%'
+    height: '100%',
   },
 
   headerBtn:{
     backgroundColor: '#1C2E48',
     flexGrow: 1,
-    height: 80,
+    height: 50,
     textAlign: 'center',
     textAlignVertical: 'center',
     color: 'white',
@@ -88,9 +89,10 @@ const styles = StyleSheet.create({
   selected:{
     backgroundColor: '#219495',
     flexGrow: 1,
-    height: 80,
+    height: 50,
     textAlign: 'center',
     textAlignVertical: 'center',
     color: 'white',
+    borderRadius: 10
   }
 });

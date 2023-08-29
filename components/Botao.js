@@ -100,8 +100,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   botaoGrande: {
-    width: 115,
-    height: 115,
+    width: 100,
+    height: 100,
     backgroundColor: '#1C2E48',
     color: 'white',
     borderRadius: 10,
@@ -111,8 +111,8 @@ const styles = StyleSheet.create({
   },
   botaoGrandeVerde: {
     backgroundColor: '#219495',
-    width: 115,
-    height: 115,
+    width: 100,
+    height: 100,
     color: 'white',
     borderRadius: 10,
     justifyContent: 'center',
@@ -121,8 +121,8 @@ const styles = StyleSheet.create({
   },
   botaoGrandeAzul: {
     backgroundColor: '#7A9FE5',
-    width: 115,
-    height: 115,
+    width: 100,
+    height: 100,
     color: 'white',
     borderRadius: 10,
     justifyContent: 'center',

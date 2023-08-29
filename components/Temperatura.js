@@ -41,7 +41,6 @@ export default function Temperatura(){
           <Text style={styles.icon}>Cº</Text>
           <Text style={styles.textoCelsius}>{ celsius }</Text>
         </View>
-
       </View>
 
       <View style={styles.instrucoes}>
