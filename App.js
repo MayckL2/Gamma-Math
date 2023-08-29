@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     alignItems: 'center',
     backgroundColor: '#0D1422',
-    height: '90vh'
+    height: '91%'
   },
 
   headerBtn:{
