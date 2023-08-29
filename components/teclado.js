@@ -15,6 +15,11 @@ export default function Teclado() {
 
   }
 
+  const limparTelas = () => {
+    setValor('');
+    setResultado('');
+  }
+
 
   return (
     <View>
@@ -24,7 +29,7 @@ export default function Teclado() {
         <Text style={styles.resposta}>{ resultado }</Text>
       
       <View style={styles.teclado}>
-        <Botao valor="C" dados={() => setValor('')} cor='cinza'/>
+        <Botao valor="C" dados={limparTelas} cor='cinza'/>
         <Botao valor=")" dados={() => setValor(valor + ')')} cor='cinza'/>
         <Botao valor="%" dados={() => setValor(valor + '%')} cor='cinza'/>
         <Botao valor="÷" dados={() => setValor(valor + '/')} cor='cinza'/>
