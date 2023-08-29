@@ -27,7 +27,12 @@ function calcular(equacao) {
 
 }
     
-    // Retorna true se o número de parênteses abertos e fechados for igual
+function backspace (string) {
+    var operacao = string;
+    const mudanca = operacao.slice(0, -1);
+
+    return mudanca;
+}
 
 
-export { calcular };
+export { calcular, backspace };
