@@ -63,8 +63,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     height: 50,
-    backgroundColor: '#1C2E48',
-    borderRadius: 20
+    backgroundColor: '#1C2E48'
   },
 
   tela: {
@@ -81,8 +80,7 @@ const styles = StyleSheet.create({
     height: 50,
     textAlign: 'center',
     textAlignVertical: 'center',
-    color: 'white',
-    paddingBottom: 30
+    color: 'white'
   },
   fundo:{
     height: '100px'
@@ -93,8 +91,6 @@ const styles = StyleSheet.create({
     height: 50,
     textAlign: 'center',
     textAlignVertical: 'center',
-    color: 'white',
-    paddingBottom: 30,
-    borderRadius: 10
+    color: 'white'
   }
 });

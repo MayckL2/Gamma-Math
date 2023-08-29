@@ -28,14 +28,6 @@ export default function Temperatura(){
   return(
     <ScrollView style={styles.tela}>
 
-      {/* <Text style={ styles.temperatura }>
-        Temperatura em Fahrenheit: { fahrenheit }
-      </Text>
-
-      <Text style={ styles.temperatura }>
-        Temperatura em Kelvin: { kelvin }
-      </Text> */}
-
       <View style={styles.visor}>
         <View style={styles.celsius}>
           <Text style={styles.icon}>Cº</Text>
@@ -73,9 +65,9 @@ export default function Temperatura(){
         <Botao valor="7" dados={() => setValor(valor + 7)} cor='grande' />
         <Botao valor="8" dados={() => setValor(valor + 8)} cor='grande' />
         <Botao valor="9" dados={() => setValor(valor + 9)} cor='grande' />
-        <Botao img={backSpace} dados={() => setValor(valor + '')} cor='grandeverde' />
+        <Botao img={backSpace} dados={() => setValor(valor.slice(0, -1))} cor='grandeverde' />
         <Botao valor="0" dados={() => setValor(valor + 0)} cor='grandeazul' />
-        <Botao valor="=" dados={ retornaTemperaturas } cor='grandeverde' />
+        <Botao valor="=" dados={ retornaTemperaturas } cor='grandeverde2' />
 
       </View>
 
@@ -84,6 +76,11 @@ export default function Temperatura(){
 }
 
 const styles = StyleSheet.create({
+  tela: {
+    paddingLeft: 15,
+    paddingRight: 15,
+    marginTop: 10,
+  },
   temperatura: {
     color: '#fff',
     fontWeight: 'bold',
@@ -95,11 +92,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     bottom: 0,
     flex: 1
-  },
-  tela: {
-    paddingLeft: 15,
-    paddingRight: 15,
-    marginTop: 10
   },
   instrucoes: {
     width: '100vw',
@@ -114,7 +106,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   visor: {
-    height: 300,
+    height: 240,
     width: '100vw',
     backgroundColor: '#1C2E48',
     borderRadius: 10,
@@ -141,7 +133,7 @@ const styles = StyleSheet.create({
   },
   resultados: {
     backgroundColor:"#364F6B",
-    height: '75%',
+    height: '72%',
     width: '48%',
     borderRadius: 10,
     justifyContent: 'space-between',

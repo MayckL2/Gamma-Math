@@ -25,6 +25,8 @@ export default function Botao({ valor, dados, cor, img }) {
       corBotao = styles.botaoGrandeVerde
     } else if(e == 'grandeazul'){
       corBotao = styles.botaoGrandeAzul
+    } else if(e == 'grandeverde2'){
+      corBotao = styles.botaoGrandeVerde2
     } else{
       corBotao = styles.botao
     }
@@ -119,7 +121,17 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: 18,
-    paddingBottom: 25
+    paddingBottom: 35
+  },
+  botaoGrandeVerde2: {
+    backgroundColor: '#219495',
+    width: 110,
+    height: 70,
+    color: 'white',
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 18,
   },
   botaoGrandeAzul: {
     backgroundColor: '#7A9FE5',
