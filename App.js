@@ -19,7 +19,7 @@ function App() {
   }
 
   return (
-    <SafeAreaView style={styles.fundo}>
+    <View style={styles.fundo}>
       <StatusBar hidden={true}/>
 
       <View style={styles.header}>
@@ -29,7 +29,7 @@ function App() {
       </View>
 
       <View style={styles.tela}>{telaAberta(tela)}</View>
-    </SafeAreaView>
+    </View>
   );
 }
 
@@ -47,7 +47,8 @@ const styles = StyleSheet.create({
     display: 'flex',
     alignItems: 'center',
     backgroundColor: '#0D1422',
-    height: '90vh'
+    width: '100%',
+    height: '100%'
   },
 
   headerBtn:{
@@ -57,5 +58,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     textAlignVertical: 'center'
   },
-  
+  fundo:{
+    height: '100px'
+  }
 });
