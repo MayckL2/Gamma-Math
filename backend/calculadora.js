@@ -1,6 +1,6 @@
 function calcular(equacao) {
     const operacao = equacao;
-    const sinaisOperacionais = ['+', '-', '*', '/', '.'];
+    const sinaisOperacionais = ['+', '-', '*', '/', '.', '%'];
 
     const posicaoDaBarra = operacao.indexOf('/');
 

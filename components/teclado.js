@@ -24,10 +24,12 @@ export default function Teclado() {
   return (
     <View>
       <Text>SCREEN Calculadora</Text>
-      
-      <Text style={styles.visor}>{valor}</Text>
-        <Text style={styles.resposta}>{ resultado }</Text>
-      
+
+      <View style={styles.telaVisor}>
+        <Text style={styles.visor}>{valor}</Text>
+        <Text style={styles.resposta}>{resultado}</Text>
+      </View>
+
       <View style={styles.teclado}>
         <Botao valor="C" dados={limparTelas} cor='cinza'/>
         <Botao valor=")" dados={() => setValor(valor + ')')} cor='cinza'/>
@@ -65,9 +67,15 @@ const styles = StyleSheet.create({
     fontSize: 35
   },
   visor: {
-    color: '#fff'
+    color: 'gray',
+    textAlign: 'right',
+    fontSize: 20
   },
   resposta: {
-    color: '#fff'
+    color: '#fff',
+    textAlign: 'right',
+    fontSize: 40
+  },
+  telaVisor:{
   }
 });
