@@ -19,12 +19,18 @@ export default function Botao({ valor, dados, cor, img }) {
       corBotao = styles.botaoAzul
     }else if(e == 'cinza'){
       corBotao = styles.botaoCinza
-    }else{
+    } else if(e == 'grande'){
+      corBotao = styles.botaoGrande
+    } else if(e == 'grandeverde'){
+      corBotao = styles.botaoGrandeVerde
+    } else if(e == 'grandeazul'){
+      corBotao = styles.botaoGrandeAzul
+    } else{
       corBotao = styles.botao
     }
     return (
       <TouchableOpacity style={corBotao} onPress={dados}>
-        <Text>{valor}</Text> 
+        <Text style={styles.texto}>{valor}</Text> 
         <Image source={img} />
       </TouchableOpacity>
     );
@@ -93,4 +99,38 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  botaoGrande: {
+    width: 115,
+    height: 115,
+    backgroundColor: '#1C2E48',
+    color: 'white',
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 12
+  },
+  botaoGrandeVerde: {
+    backgroundColor: '#219495',
+    width: 115,
+    height: 115,
+    color: 'white',
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 12
+  },
+  botaoGrandeAzul: {
+    backgroundColor: '#7A9FE5',
+    width: 115,
+    height: 115,
+    color: 'white',
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 12
+  },
+  texto: {
+    color: '#fff',
+    fontSize: 24,
+  }
 });
