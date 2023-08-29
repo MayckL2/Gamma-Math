@@ -24,9 +24,8 @@ const style = StyleSheet.create({
     width: '95vw', 
     height: '352px',
     alignItems: 'center',
-    justifyContent: 'center',
-    gap: '8px',
-    borderRadius: '10px'
+    justifyContent: 'center'
+    // gap: '8px'
+    // borderRadius: '10px'
   }
-
 })

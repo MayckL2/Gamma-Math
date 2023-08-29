@@ -46,7 +46,6 @@ const styles = StyleSheet.create({
   tela: {
     display: 'flex',
     alignItems: 'center',
-    height: 'auto',
     backgroundColor: '#0D1422',
     height: '90vh'
   },

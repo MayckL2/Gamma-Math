@@ -15,28 +15,28 @@ export default function Botao({ valor, dados, cor, img }) {
     if (e == 'verde') {
       return (
         <TouchableOpacity style={styles.botaoVerde} onPress={dados}>
-          {valor}
+          <Text>{valor}</Text> 
           <Image source={img} />
         </TouchableOpacity>
       );
     }else if(e == 'azul'){
       return (
         <TouchableOpacity style={styles.botaoAzul} onPress={dados}>
-          {valor}
+          <Text>{valor}</Text> 
           <Image source={img} />
         </TouchableOpacity>
       );
     }else if(e == 'cinza'){
       return (
         <TouchableOpacity style={styles.botaoCinza} onPress={dados}>
-          {valor}
+          <Text>{valor}</Text> 
           <Image source={img} />
         </TouchableOpacity>
       );
     }else{
       return (
         <TouchableOpacity style={styles.botao} onPress={dados}>
-          {valor}
+          <Text>{valor}</Text> 
           <Image source={img} />
         </TouchableOpacity>
       );

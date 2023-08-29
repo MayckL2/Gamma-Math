@@ -8,11 +8,11 @@ export default function Teclado() {
 
   return (
     <View>
-      SCREEN Calculadora
+      <Text>SCREEN Calculadora</Text>
       
       <Text>{valor}</Text>
       
-      <Text style={styles.teclado}>
+      <View style={styles.teclado}>
         <Botao valor="(" dados={() => setValor(valor + '(')} cor='cinza'/>
         <Botao valor=")" dados={() => setValor(valor + ')')} cor='cinza'/>
         <Botao valor="%" dados={() => setValor(valor + '%')} cor='cinza'/>
@@ -33,7 +33,7 @@ export default function Teclado() {
         <Botao valor="." dados={() => setValor(valor + '.')} cor='cinza'/>
         <Botao dados={() => setValor(valor + 'C')} cor='verde' img={backSpace}/>
         <Botao valor="=" dados={() => setValor(valor + '=')} cor='blue'/>
-      </Text>
+      </View>
     </View>
   );
 }
