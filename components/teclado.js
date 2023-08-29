@@ -57,7 +57,6 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     width: '100%',
     gap: 10,
-    justifyContent: 'center',
     fontSize: 35
   },
   visor: {
@@ -71,11 +70,17 @@ const styles = StyleSheet.create({
     fontSize: 40
   },
   telaVisor:{
+    backgroundColor: '#1C2E48',
+    paddingHorizontal: 10,
+    borderRadius: 10,
+    marginVertical: 10,
+    height: '30%',
+    justifyContent: 'center'
   },
-  telaCalc:{
-    justifyContent: 'center',
-    paddingRight: 20,
-    height: '90%',
-    gap: 40
-  }
+  // telaCalc:{
+  //   justifyContent: 'center',
+  //   paddingRight: 20,
+  //   height: '90%',
+  //   gap: 40
+  // }
 });

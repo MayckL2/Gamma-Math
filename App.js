@@ -7,6 +7,9 @@ import Temperatura from './components/Temperatura';
 
 function App() {
   const [tela, setTela] = useState('Teclado');
+  const [btnCor, setBtnCor] = useState(styles.selected)
+  const [btnCor1, setBtnCor1] = useState(styles.headerBtn)
+  const [btnCor2, setBtnCor2] = useState(styles.headerBtn)
 
   function telaAberta(e) {
     if (tela == 'Teclado') {
@@ -23,9 +26,9 @@ function App() {
       <StatusBar hidden={true}/>
 
       <View style={styles.header}>
-        <Text style={styles.headerBtn} onPress={() => setTela('Teclado')}>Teclado</Text>
-        <Text style={styles.headerBtn} onPress={() => setTela('Medida')}>Medida</Text>
-        <Text style={styles.headerBtn} onPress={() => setTela('Temperatura')}>Temperatura</Text>
+        <Text style={btnCor} onPress={() => setTela('Teclado')}>Teclado</Text>
+        <Text style={btnCor1} onPress={() => setTela('Medida')}>Medida</Text>
+        <Text style={btnCor2} onPress={() => setTela('Temperatura')}>Temperatura</Text>
       </View>
 
       <View style={styles.tela}>{telaAberta(tela)}</View>
@@ -40,7 +43,8 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-around',
-    height: '10vh'
+    height: '10vh',
+    backgroundColor: '#1C2E48',
   },
 
   tela: {
@@ -52,13 +56,22 @@ const styles = StyleSheet.create({
   },
 
   headerBtn:{
-    backgroundColor: 'gray',
+    backgroundColor: '#1C2E48',
     flexGrow: 1,
     height: 80,
     textAlign: 'center',
-    textAlignVertical: 'center'
+    textAlignVertical: 'center',
+    color: 'white',
   },
   fundo:{
     height: '100px'
+  },
+  selected:{
+    backgroundColor: '#219495',
+    flexGrow: 1,
+    height: 80,
+    textAlign: 'center',
+    textAlignVertical: 'center',
+    color: 'white',
   }
 });
