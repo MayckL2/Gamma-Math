@@ -63,8 +63,8 @@
 | Desenvolvedores (16 horas trabalhadas)  | R$ 1280,00
 | Hospedagem Playstore | R$ 124,44 (mensal)
 | Hospedagem AppleStore | R$ 497,77 (anual)
-| Despesas adicionais | ??
-| Total | ??
+| Despesas adicionais | R$ 150,00
+| Total | R$ 2.051,00
 
   
 
