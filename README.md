@@ -58,16 +58,14 @@
 
 
 ##  1.8 - PRECIFICAÇÃO 
+| Despesa | Valor |
+|------|------|
+| Desenvolvedores (16 horas trabalhadas)  | R$ 1280,00
+| Hospedagem Playstore | R$ 124,44 (mensal)
+| Hospedagem AppleStore | R$ 497,77 (anual)
+| Despesas adicionais | ??
+| Total | ??
 
-     - Em horas: R$ 20,00 | Horas trabalhadas: 16
-     
-     - Preço desenvolvedores: R$ 320,00 * 4 = R$ 1280,00
-     
-     - Hospedagem Playstore: R$ 124,44 (mensal)
-     
-     - Hospedagem AppleStore: R$ 497,77 (anual)
-     
-     - TOTAL : R$ 1.445,48
   
 
 ##   1.9 - MONETIZAÇÃO 
