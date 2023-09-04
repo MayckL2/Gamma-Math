@@ -44,7 +44,7 @@
      npx expo start --tunnel
 
 
-###   1.7 - EQUIPE DE DESENVOLVEDORES 
+##   1.7 - EQUIPE DE DESENVOLVEDORES 
     
 | Nome | Github |
 |------|------|
@@ -57,7 +57,7 @@
 
 
 
-###   1.8 - PRECIFICAÇÃO 
+##  1.8 - PRECIFICAÇÃO 
 
      - Em horas: R$ 20,00 | Horas trabalhadas: 16
      
@@ -70,7 +70,7 @@
      - TOTAL : R$ 1.445,48
   
 
-###   1.9 - MONETIZAÇÃO 
+##   1.9 - MONETIZAÇÃO 
 
 | Lucro | Valor |
 |------|------|
