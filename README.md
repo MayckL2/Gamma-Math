@@ -77,6 +77,14 @@
 | Anúncios | Em função do número de usuários
 
 
+## 2.0 - LINKS
 
+> FIGMA
+
+    https://www.figma.com/file/YHzdavui4dFAE0UPjukeuo/PPDM-Calculadora?type=design&node-id=0%3A1&mode=design&t=79MRymQYIaTPmhPp-1
+
+> TRELLO
+
+    https://trello.com/b/hB1Lxkny/calculadora-conversor-ppdm
     
   
