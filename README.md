@@ -1,38 +1,47 @@
 # GAMMA MATH 🎓🎯
 ![Frame 15](https://github.com/MayckL2/PPDM-Calculadora/assets/112624030/2c077532-fb8f-4d67-8ccc-0ddde09fb75f)
-###   1.1 - O QUE É O PROJETO
+##   1.1 - O QUE É O PROJETO
 
 > O projeto em questão é a criação de um aplicativo de calculadora desenvolvido especificamente para dispositivos móveis. A proposta central do projeto é fornecer aos usuários uma ferramenta prática e versátil para a realização de cálculos em seus smartphones.
 
 
-###   1.2 - OBJETIVO 
+##   1.2 - OBJETIVO 
 
 > O aplicativo de calculadora terá como foco principal oferecer funcionalidades essenciais de cálculo, como operações de adição, subtração, multiplicação e divisão. Além disso, estão previstas funcionalidades mais avançadas, como cálculos com porcentagens, operações de raiz quadrada e a capacidade de lidar com números negativos além das abas de conversão de metros e temperatura. 
 
 
-###   1.3 - REQUISITOS FUNCIONAIS  
-
-     CALCULADORA    
-     CONVERSOR TEMPERATURA
-     CONVERSOR METROS
 
 
+##   1.3 - REQUISITOS FUNCIONAIS  
 
-###   1.4 - TECNOLOGIAS UTILIZADAS
+> Calculadora
+
+> Conversor de temperatura
+
+> Conversor metros
+
+
+
+
+##   1.4 - TECNOLOGIAS UTILIZADAS
 ![Frame 22 (1)](https://github.com/MayckL2/PPDM-Calculadora/assets/112624030/41fbedb3-992d-44fb-ba99-943f023a9bc2)
 
 
 
-###   1.5 - COMO CLONAR 
+##   1.5 - COMO CLONAR 
     
-     Só rodar o seguinte comando no terminal: git clone https://github.com/MayckL2/PPDM-Calculadora
+> Só rodar o seguinte comando no terminal:
 
+     git clone https://github.com/MayckL2/PPDM-Calculadora
 
-###   1.6 - COMO RODAR O APP 
+##   1.6 - COMO RODAR O APP 
     
-     Instalar as dependencias da aplicação com o comando: NPM INSTALL
----     
-     Para rodar o aplicativo com expo: npx expo start --tunnel
+> Instalar as dependencias da aplicação com o comando:
+
+       NPM INSTALL
+> Para rodar o aplicativo com expo:   
+
+     npx expo start --tunnel
 
 
 ###   1.7 - EQUIPE DE DESENVOLVEDORES 
@@ -67,7 +76,7 @@
 |------|------|
 | Download Playstore  | R$ 0,090
 | Download AppleStore | R$ 0,50
-| Anúncio | Em função do número de usuários
+| Anúncios | Em função do número de usuários
 
 
 
