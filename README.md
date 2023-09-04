@@ -27,25 +27,20 @@
 
 
 ###   1.4 - TECNOLOGIAS UTILIZADAS
+![Frame 22 (1)](https://github.com/MayckL2/PPDM-Calculadora/assets/112624030/41fbedb3-992d-44fb-ba99-943f023a9bc2)
 
-
-
-
-    # REACT NATIVE
-    # FIGMA 
-    # TRELLO 
-    # GIT 
-    # GITHUB
 
 
 ###   1.5 - COMO CLONAR 
     
-    # Só rodar o seguinte comando no terminal: git clone https://github.com/MayckL2/PPDM-Calculadora
+     Só rodar o seguinte comando no terminal: git clone https://github.com/MayckL2/PPDM-Calculadora
 
 
 ###   1.6 - COMO RODAR O APP 
     
-    # COMANDO EXPO .....
+     Instalar as dependencias da aplicação com o comando: NPM INSTALL
+---     
+     Para rodar o aplicativo com expo: npx expo start --tunnel
 
 
 ###   1.7 - EQUIPE DE DESENVOLVEDORES 
@@ -63,14 +58,24 @@
 
 ###   1.8 - PRECIFICAÇÃO 
 
-    # DATA DE INÍCIO: 21/08/2023
-    # DATA DE ENTREGA: 04/08/2023
-    # HORAS TRABALHADAS: 12 HORAS 
-    # VALOR DA HORA: ?????
+     - Em horas: R$ 20,00 | Horas trabalhadas: 16
+     
+     - Preço desenvolvedores: R$ 320,00 * 4 = R$ 1280,00
+     
+     - Hospedagem Playstore: R$ 124,44 (mensal)
+     
+     - Hospedagem AppleStore: R$ 497,77 (anual)
+     
+     - TOTAL : R$ 1.445,48
+  
 
 ###   1.9 - MONETIZAÇÃO 
 
-    # ?????????
+| Lucro | Valor |
+|------|------|
+| Download Playstore  | R$ 0,090
+| Download AppleStore | R$ 0,50
+| Anúncio | Em função do número de usuários
 
 
 
