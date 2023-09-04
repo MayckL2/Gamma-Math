@@ -1,6 +1,7 @@
 # GAMMA MATH 🎓🎯
-![Frame 15](https://github.com/MayckL2/PPDM-Calculadora/assets/112624030/2c077532-fb8f-4d67-8ccc-0ddde09fb75f)
+
 ##   1.1 - O QUE É O PROJETO
+![Frame 15](https://github.com/MayckL2/PPDM-Calculadora/assets/112624030/25916d9f-dd62-4037-9ff1-6aa0ad0830dc)
 
 > O projeto em questão é a criação de um aplicativo de calculadora desenvolvido especificamente para dispositivos móveis. A proposta central do projeto é fornecer aos usuários uma ferramenta prática e versátil para a realização de cálculos em seus smartphones.
 
@@ -24,7 +25,7 @@
 
 
 ##   1.4 - TECNOLOGIAS UTILIZADAS
-![Frame 22 (1)](https://github.com/MayckL2/PPDM-Calculadora/assets/112624030/41fbedb3-992d-44fb-ba99-943f023a9bc2)
+![Tecnologias](https://github.com/MayckL2/PPDM-Calculadora/assets/112624030/d1d58415-8075-4cc2-93bf-6dae14c3dbab)
 
 
 
