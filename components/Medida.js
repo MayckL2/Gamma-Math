@@ -41,15 +41,16 @@ export default function Medida(){
 const style = StyleSheet.create({
 
   body : {
-    height: '100%',
+    height: '94%',
     width: '100%',
-    alignItems: 'center'
+    alignItems: 'center',
+    gap: 10
   }, 
 
   fundo: {
     backgroundColor: '#1C2E48',
     width: '90%', 
-    height: '35%',
+    height: '32%',
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'column',
@@ -61,8 +62,10 @@ const style = StyleSheet.create({
   teclado: {
     flexDirection:'row',
     flexWrap: 'wrap',
-    justifyContent: 'space-around',
+    justifyContent: 'center',
     bottom: 0,
-    flex: 1
+    flex: 1,
+    height: '60%',
+    gap: 10
   },
 })

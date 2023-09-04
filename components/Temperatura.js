@@ -26,7 +26,7 @@ export default function Temperatura(){
   }
 
   return(
-    <ScrollView style={styles.tela}>
+    <View style={styles.tela}>
 
       <View style={styles.visor}>
         <View style={styles.celsius}>
@@ -71,15 +71,15 @@ export default function Temperatura(){
 
       </View>
 
-    </ScrollView>
+    </View>
   )
 }
 
 const styles = StyleSheet.create({
   tela: {
-    paddingLeft: 15,
-    paddingRight: 15,
     marginTop: 10,
+    width: '100%',
+    height: '90%',
   },
   temperatura: {
     color: '#fff',
@@ -89,16 +89,20 @@ const styles = StyleSheet.create({
   teclado: {
     flexDirection:'row',
     flexWrap: 'wrap',
-    justifyContent: 'space-around',
+    justifyContent: 'center',
     bottom: 0,
-    flex: 1
+    flex: 1,
+    width: '100%',
+    height: '60%',
+    gap: 10
   },
   instrucoes: {
-    width: '100vw',
+    width: '100%',
+    height: '6%',
     backgroundColor: '#1C2E48',
+    justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 10,
-    paddingVertical: 12,
     marginBottom: 12
   },
   textInstrucao: {
@@ -106,7 +110,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   visor: {
-    height: 240,
+    height: '34%',
     width: '100vw',
     backgroundColor: '#1C2E48',
     borderRadius: 10,

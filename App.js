@@ -1,19 +1,19 @@
 import { useState, useEffect } from 'react';
 import { StyleSheet, View, Text, SafeAreaView, StatusBar, ScrollView } from 'react-native';
 
-import Teclado from './components/teclado';
+import Calculadora from './components/calculadora';
 import Medida from './components/Medida';
 import Temperatura from './components/Temperatura';
 
 function App() {
-  const [tela, setTela] = useState('Teclado');
+  const [tela, setTela] = useState('Calculadora');
   const [btnCor, setBtnCor] = useState(styles.selected)
   const [btnCor1, setBtnCor1] = useState(styles.headerBtn)
   const [btnCor2, setBtnCor2] = useState(styles.headerBtn)
 
   // MUDA COR DO BOTAO AO TROCAR DE TELA
   useEffect(()=>{
-    if(tela == 'Teclado'){
+    if(tela == 'Calculadora'){
       setBtnCor(styles.selected)
       setBtnCor1(styles.headerBtn)
       setBtnCor2(styles.headerBtn)
@@ -31,8 +31,8 @@ function App() {
   // MUDA TELA A SER RENDERIZADA
   function telaAberta(e) {
     
-    if (tela == 'Teclado') {
-      return <Teclado />;
+    if (tela == 'Calculadora') {
+      return <Calculadora />;
     } else if (tela == 'Medida') {
       return <Medida />;
     } else if (tela == 'Temperatura') {
@@ -45,7 +45,7 @@ function App() {
       <StatusBar hidden={true}/>
 
       <View style={styles.header}>
-        <Text style={btnCor} onPress={() => setTela('Teclado')}>Teclado</Text>
+        <Text style={btnCor} onPress={() => setTela('Calculadora')}>Calculadora</Text>
         <Text style={btnCor1} onPress={() => setTela('Medida')}>Medida</Text>
         <Text style={btnCor2} onPress={() => setTela('Temperatura')}>Temperatura</Text>
       </View>
@@ -62,8 +62,13 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-around',
-    height: 50,
-    backgroundColor: '#1C2E48'
+    height: '6%',
+    width: '100%',
+    backgroundColor: '#1C2E48',
+    position: 'relative',
+    borderRadius: 50,
+    overflow: 'hidden',
+    marginTop: '2%'
   },
 
   tela: {
@@ -73,22 +78,21 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%'
   },
-
+  fundo:{
+    paddingHorizontal: 10, 
+    height: '100px',
+    backgroundColor: '#0D1422'
+  },
   headerBtn:{
-    backgroundColor: '#1C2E48',
+    // backgroundColor: '#1C2E48',
     flexGrow: 1,
-    height: 50,
     textAlign: 'center',
     textAlignVertical: 'center',
     color: 'white'
   },
-  fundo:{
-    height: '100px'
-  },
   selected:{
     backgroundColor: '#219495',
     flexGrow: 1,
-    height: 50,
     textAlign: 'center',
     textAlignVertical: 'center',
     color: 'white'
