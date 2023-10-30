@@ -49,11 +49,11 @@
 ## 2.0 - LINKS
 > FIGMA
 
-    https://www.figma.com/file/YHzdavui4dFAE0UPjukeuo/PPDM-Calculadora?type=design&node-id=0%3A1&mode=design&t=79MRymQYIaTPmhPp-1
+    https://www.figma.com/file/FAGmpDrqKrlB1shNbKPaY4/AWAKE---PPDM?type=design&node-id=0-1&mode=design&t=UEVhlVi1dNEI5rzr-0
 > TRELLO
 
     https://trello.com/b/hB1Lxkny/calculadora-conversor-ppdm
     
 > CANVA
 
-    https://www.canva.com/design/DAFtVmAOZY0/6GwFCE3U5-nPkLodRr3bhA/edit?utm_content=DAFtVmAOZY0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+    https://l1nk.dev/fk2Am
